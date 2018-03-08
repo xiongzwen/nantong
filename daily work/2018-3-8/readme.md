@@ -1,3 +1,4 @@
+oracle连接数
 --查看进程数，超过300重启61上的SM服务，用户名：sys  密码：oracle ，连接方式SYSDBA
 select COUNT(*) FROM v$process;  
 select count(*) from v$session;
